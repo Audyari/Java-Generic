@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Contravariant/ContravariantApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Covariant/CovariantApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoundedTypeParameter/ConstraintApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoundedTypeParameter/MultipleConstraintApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/../Hello_Word/Hello_Word.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/src/HelloWord.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Covariant/ContravariantApp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayHelperApp.executor": "Run",
+    "Application.ConstraintApp.executor": "Run",
     "Application.ContohMetodeGenerik.executor": "Run",
     "Application.Contravariant.ContravariantApp.executor": "Run",
     "Application.ContravariantApp.executor": "Run",
@@ -58,7 +58,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Contravariant.ContravariantApp">
+  <component name="RunManager" selected="Application.MultipleConstraintApp">
     <configuration name="ArrayHelperApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericMethod.ArrayHelperApp" />
       <module name="Java Generic" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContohMetodeGenerik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericMethod.ContohMetodeGenerik" />
+    <configuration name="ConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.ConstraintApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GenericMethod.*" />
+          <option name="PATTERN" value="BoundedTypeParameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericClass.GenericClassApp" />
+    <configuration name="MultipleConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.MultipleConstraintApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GenericClass.*" />
+          <option name="PATTERN" value="BoundedTypeParameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleConstraintApp" />
+        <item itemvalue="Application.ConstraintApp" />
         <item itemvalue="Application.Contravariant.ContravariantApp" />
         <item itemvalue="Application.ContravariantApp" />
         <item itemvalue="Application.ArrayHelperApp" />
-        <item itemvalue="Application.ContohMetodeGenerik" />
-        <item itemvalue="Application.GenericClassApp" />
       </list>
     </recent_temporary>
   </component>
