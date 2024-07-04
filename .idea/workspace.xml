@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TypeErasure/TypeErasureApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/ComparableApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
@@ -44,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayHelperApp.executor": "Run",
+    "Application.ComparableApp.executor": "Run",
     "Application.ConstraintApp.executor": "Run",
     "Application.ContohMetodeGenerik.executor": "Run",
     "Application.Contravariant.ContravariantApp.executor": "Run",
@@ -52,6 +54,7 @@
     "Application.Main.executor": "Run",
     "Application.MultipleConstraintApp.executor": "Run",
     "Application.PairApp.executor": "Run",
+    "Application.TypeErasureApp.executor": "Run",
     "Application.WildcardApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -59,13 +62,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TypeErasureApp">
-    <configuration name="ConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.ConstraintApp" />
+  <component name="RunManager" selected="Application.ComparableApp">
+    <configuration name="ComparableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparableInterface.ComparableApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BoundedTypeParameter.*" />
+          <option name="PATTERN" value="ComparableInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Contravariant.ContravariantApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Contravariant.ContravariantApp" />
+    <configuration name="ConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.ConstraintApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contravariant.*" />
+          <option name="PATTERN" value="BoundedTypeParameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableApp" />
         <item itemvalue="Application.TypeErasureApp" />
         <item itemvalue="Application.WildcardApp" />
         <item itemvalue="Application.MultipleConstraintApp" />
         <item itemvalue="Application.ConstraintApp" />
-        <item itemvalue="Application.Contravariant.ContravariantApp" />
       </list>
     </recent_temporary>
   </component>
