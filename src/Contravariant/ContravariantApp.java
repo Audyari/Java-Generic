@@ -1,9 +1,8 @@
-package Covariant;
+package Contravariant;
 
 import GenericClass.MyData;
 
 public class ContravariantApp {
-
 
     public static void main(String[] args) {
 

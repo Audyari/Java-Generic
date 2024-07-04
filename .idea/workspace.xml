@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Covariant/ContravariantApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Contravariant/ContravariantApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Covariant/CovariantApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
@@ -14,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/../Hello_Word/Hello_Word.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/src/HelloWord.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Covariant/ContravariantApp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,8 @@
   "keyToString": {
     "Application.ArrayHelperApp.executor": "Run",
     "Application.ContohMetodeGenerik.executor": "Run",
+    "Application.Contravariant.ContravariantApp.executor": "Run",
+    "Application.ContravariantApp.executor": "Run",
     "Application.GenericClassApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PairApp.executor": "Run",
@@ -54,7 +58,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ContravariantApp">
+  <component name="RunManager" selected="Application.Contravariant.ContravariantApp">
     <configuration name="ArrayHelperApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericMethod.ArrayHelperApp" />
       <module name="Java Generic" />
@@ -94,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Contravariant.ContravariantApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Contravariant.ContravariantApp" />
+      <module name="Java Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contravariant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericClass.GenericClassApp" />
       <module name="Java Generic" />
@@ -107,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericClass.PairApp" />
-      <module name="Java Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GenericClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Contravariant.ContravariantApp" />
         <item itemvalue="Application.ContravariantApp" />
         <item itemvalue="Application.ArrayHelperApp" />
         <item itemvalue="Application.ContohMetodeGenerik" />
         <item itemvalue="Application.GenericClassApp" />
-        <item itemvalue="Application.PairApp" />
       </list>
     </recent_temporary>
   </component>
@@ -141,16 +145,16 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Covariant/ContravariantApp.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Generic$GenericClassApp.ic" NAME="GenericClassApp Coverage Results" MODIFIED="1719910511042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
