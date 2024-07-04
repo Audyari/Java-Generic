@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GenericClass/GenericClassApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericClass/MyData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericClass/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericClass/PairApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericMethod/ArrayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericMethod/ArrayHelperApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Invariant/InvariantApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
@@ -17,6 +16,8 @@
       <change beforePath="$PROJECT_DIR$/../Hello_Word/Hello_Word.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/src/HelloWord.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericClass/GenericClassApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericClass/GenericClassApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericClass/PairApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericClass/PairApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2igJ8dT0Km6yFXA4Lv2PKl3bhaC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,15 +47,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.GenericClassApp.executor": "Coverage",
+    "Application.ArrayHelperApp.executor": "Run",
+    "Application.ContohMetodeGenerik.executor": "Run",
+    "Application.GenericClassApp.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PairApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PairApp">
+  <component name="RunManager" selected="Application.ArrayHelperApp">
+    <configuration name="ArrayHelperApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericMethod.ArrayHelperApp" />
+      <module name="Java Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GenericMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContohMetodeGenerik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericMethod.ContohMetodeGenerik" />
+      <module name="Java Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GenericMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericClass.GenericClassApp" />
       <module name="Java Generic" />
@@ -96,8 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PairApp" />
+        <item itemvalue="Application.ArrayHelperApp" />
+        <item itemvalue="Application.ContohMetodeGenerik" />
         <item itemvalue="Application.GenericClassApp" />
+        <item itemvalue="Application.PairApp" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
