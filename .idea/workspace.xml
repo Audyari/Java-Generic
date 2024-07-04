@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/ComparableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparableInterface/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/MahasiswaComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface2/ComparatorApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
@@ -62,7 +64,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComparableApp">
+  <component name="RunManager" selected="Application.ComparatorApp">
     <configuration name="ComparableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparableInterface.ComparableApp" />
       <module name="Java Generic" />
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.ConstraintApp" />
+    <configuration name="ComparatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparatorInterface2.ComparatorApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BoundedTypeParameter.*" />
+          <option name="PATTERN" value="ComparatorInterface2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleConstraintApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoundedTypeParameter.MultipleConstraintApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparatorInterface.Main" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BoundedTypeParameter.*" />
+          <option name="PATTERN" value="ComparatorInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorApp" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ComparableApp" />
         <item itemvalue="Application.TypeErasureApp" />
         <item itemvalue="Application.WildcardApp" />
-        <item itemvalue="Application.MultipleConstraintApp" />
-        <item itemvalue="Application.ConstraintApp" />
       </list>
     </recent_temporary>
   </component>
