@@ -1,4 +1,4 @@
-package TestBaru.A.GenericClass;
+package TestBaru.A.GenericClass.A.GenericClass;
 
 public class GenericClass<T> {
 
