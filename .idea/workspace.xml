@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84954f00-1176-48d3-a898-2857dd5fddbf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Mahasiswa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/MahasiswaComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorInterface2/ComparatorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/Hello_Word.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_Word/src/HelloWord.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBaru/A/GenericClass/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBaru/A/GenericClass/GenerikMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBaru/A/GenericClass/PanggilGenerik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestBaru/A/GenericClass/testGenerikMultiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,28 +49,17 @@
     "Application.Main.executor": "Run",
     "Application.MultipleConstraintApp.executor": "Run",
     "Application.PairApp.executor": "Run",
+    "Application.PanggilGenerik.executor": "Run",
     "Application.TypeErasureApp.executor": "Run",
     "Application.WildcardApp.executor": "Run",
+    "Application.testGenerikMultiple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComparatorApp">
-    <configuration name="ComparableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparableInterface.ComparableApp" />
-      <module name="Java Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ComparableInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.testGenerikMultiple">
     <configuration name="ComparatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparatorInterface2.ComparatorApp" />
       <module name="Java Generic" />
@@ -104,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeErasureApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypeErasure.TypeErasureApp" />
+    <configuration name="PairApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericClass.PairApp" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TypeErasure.*" />
+          <option name="PATTERN" value="GenericClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wildcard.WildcardApp" />
+    <configuration name="PanggilGenerik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestBaru.A.GenericClass.PanggilGenerik" />
       <module name="Java Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Wildcard.*" />
+          <option name="PATTERN" value="TestBaru.A.GenericClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testGenerikMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestBaru.A.GenericClass.testGenerikMultiple" />
+      <module name="Java Generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestBaru.A.GenericClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testGenerikMultiple" />
+        <item itemvalue="Application.PanggilGenerik" />
+        <item itemvalue="Application.PairApp" />
         <item itemvalue="Application.ComparatorApp" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ComparableApp" />
-        <item itemvalue="Application.TypeErasureApp" />
-        <item itemvalue="Application.WildcardApp" />
       </list>
     </recent_temporary>
   </component>
